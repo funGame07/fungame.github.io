@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 15px;
+    position: absolute;
+    justify-content: center;
+    background-image: linear-gradient(to right bottom, rgba(227, 229, 229, 0.945), rgb(214, 215, 215), rgb(215, 215, 215));
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    margin-left: 10px;
+}
+
+.navbar a{
+    cursor: pointer;
+    margin-left: 20px;
+    color: rgb(20, 68, 227);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#menus{
+    width: 35px;    
+    cursor: pointer;
+}
+
+#menu{
+    width: 300px;
+    height: 90vh;
+    top: 20px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    box-shadow: 0px 0px 70px  grey;
+    justify-content: center;
+    text-align:left;
+}
+
+.games{
+    width: 80%;
+    min-height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 1px 20px grey;
+}
+
+
+
+.pic-mata{
+    background: url('/image/Screenshot\ 2024-02-29\ 232245.png');
+    background-size: cover;
+    background-position: bottom ;
+}
+
+.pic-love{
+    background: url('/image/Screenshot\ 2024-02-29\ 232100.png');
+    background-size: cover;
+    background-position: bottom ;
+}
+
+.pic-soon{
+    background: black;
+    background-size: cover;
+    background-position: bottom ;
+}
+
+#games-menu{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(217, 11, 11, 0.605);
+    outline: 4px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 26px;
+}
+
+ul li{
+    list-style: none;
+    display: block;
+    margin-right: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+ul li a:hover{
+    color: red
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0;
+    margin-left: 5px;
+    position: relative;
+}
+.row::after{
+    content: "";
+    position: absolute;
+    margin-left: 5px;
+    width: 7px;
+    height: 100%;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, rgb(7, 231, 201), rgb(12, 210, 245), rgb(0, 21, 252));
+}
+
+.col-1{
+    padding: 5px 20px
+}
+
+.col-1 .content > p{
+    font-family: sans-serif;
+    color: rgb(11, 85, 100);
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 105%;
+}
+
+.content{
+    margin-left: 7px;
+}
+.joke-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    min-height: 200px;
+}
+
+#jokes{
+    font-family: sans-serif;
+    font-style: italic;
+    color: black;
+    font-size: 20px;
+}   
+
+#generateJokes{
+    background-color: rgb(13, 73, 202);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(17, 228, 204);
+}
+
+#generateJokes:hover{
+    background-color: rgb(3, 41, 123);
+    color: rgb(32, 208, 188);
+}
+
+.mulai-game{
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-image: linear-gradient(to right bottom, rgb(237, 6, 6), rgb(230, 14, 100), rgb(243, 12, 174));
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+
+.mulai-game:hover{
+    background-image: linear-gradient(to right bottom, rgb(204, 9, 9), rgb(179, 12, 79), rgb(185, 15, 134));
+}

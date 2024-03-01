@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tes Mata</title>
+    <link rel="stylesheet" href="../css/style-mata.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="navbar">
+            <img src="../image/Hamburger_icon.svg.png" alt="menu" id="menus">
+            <a>FunGame</a>
+                
+                <!-- Modal -->
+                <div id="menu">
+                        <i class="fa-solid fa-x" id="games-menu"></i>
+                        <a href="tes-mata.html"><button type="button" class="games pic-mata">TES MATA</button></a>
+                        <a href=""><button type="button" class="games pic-love">MENGUKUR CINTA</button></a>
+                        <a href="../index.html"><button type="button" class="games pic-soon">Coming Soon...</button></a>
+                </div>
+        </div>
+
+        <div class="game-container">
+            <div id="game-1" class="game-1">
+                <div class="wrapper">
+                    <p id="judul">AYO TES MATA ANDA</p>
+                    <p>Temukan Perbedaannya !!</p>
+                </div>
+    
+                <div class="rows">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="rows">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="rows">
+                    <div class="circle" id="answer">o</div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="true" id="true">
+                    <h4>Benar</h4>
+                </div>
+            </div>
+    
+            <!-- second game -->
+            <div id="game-2" class="game-2">
+                <div class="wrapper">
+                    <p id="judul">AYO TES MATA ANDA</p>
+                    <p>Temukan Perbedaannya !!</p>
+                </div>
+    
+                <div class="rows">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="rows">
+                    <div class="circle"></div>
+                    <div class="circle" id="answer-2">o</div>
+                    <div class="circle"></div>
+                </div>
+                <div class="rows">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div id="true-2" class="true">
+                    <h4>Benar</h4>
+                </div>
+            </div>
+    
+            <div id="game-3" class="game-3">
+                <div class="wrapper">
+                    <p id="judul">AYO TES MATA ANDA</p>
+                    <p>Bisakah Kamu Membaca Teks Dibawah??</p>
+                </div>
+    
+                <div class="text">
+                    <p>Saya adalah teks untuk dibaca</p>
+                </div>
+                <div class="pilihan-container">
+                    <div class="pilihan bisa" id="answer-3">Bisa</div>
+                    <div class="pilihan tidak" id="answer-3">Tidak</div>
+                </div>
+                
+            </div>
+    
+            <div id="game-4" class="game-4">
+                <div class="wrapper">
+                    <p id="judul">AYO TES MATA ANDA</p>
+                    <p>Ikuti Bola Ini !!!</p>
+                </div>
+                <div class="dot" id="dot"></div>
+            </div>
+            
+            <div class="jumpscare" id="jumpscare">
+                <img src="../image/1M5n.gif" alt="wkwk" id="ghost-1">
+                <audio id="myAudio">
+                    <source src="../image/jumpscare-154489.mp3">
+                </audio>
+                <!-- <audio src="image/WIN_20240301_14_40_31_Pro.mp4">hello</audio> -->
+            </div>
+        </div>
+
+        
+        
+    </div>
+    
+    <script src="../js/tes-mata.js"></script>
+</body>
+</html>
